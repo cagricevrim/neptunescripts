@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
-DNAseq = 'ATGAAC'
+DNAseq = raw_input ( 'Insert a Sequence ' )
+DNAseq = DNAseq.upper()
 print( 'Sequence ' + DNAseq )
 SeqLength = len( DNAseq )
 print ( 'Lenght is ' + str ( SeqLength ) )
@@ -14,4 +15,4 @@ print('G: ' + str( NumberG / float ( SeqLength ) ) )
 print('C: ' + str( NumberC / float ( SeqLength ) ) )
 
  
-print "Thanks Thomas..."
+print "Courtesy to Thomas..."
