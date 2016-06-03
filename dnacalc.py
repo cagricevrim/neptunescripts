@@ -4,4 +4,4 @@ DNAseq = 'ATGAAC'
 
 print( 'Sequence ' + DNAseq )
 
-ECHO "Thanks Thomas..."
+print "Thanks Thomas..."
