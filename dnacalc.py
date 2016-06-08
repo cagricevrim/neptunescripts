@@ -27,6 +27,8 @@ for Base in Bases:
 	else:
 		TotalWeak = TotalWeak + Count
 
+Counts
+
 #print('A: {:.2}'.format(NumberA / float (SeqLength)))
 #print('T: {:.2}'.format(NumberT / float (SeqLength)))
 #print('G: {:.2}'.format(NumberG / float (SeqLength)))
